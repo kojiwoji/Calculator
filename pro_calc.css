@@ -1,0 +1,67 @@
+/*Giving the html some color*/
+html,
+body {
+	padding: 0;
+	margin: 0;
+	color: white;
+	background-color: #463592;
+	font-family: monospace;
+	display: flex;
+	justify-content: center;
+}
+
+/*Styling the h1*/
+h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin: 0;
+}
+/*Chaning the input button*/
+input {
+	outline: none;
+	background-color: white;
+	text-align: right;
+	border: none;
+	font-size: 3rem;
+	width: 78vw;
+	padding: 0.5rem 1.5rem;
+	border-radius: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+/*Placing contents in the center*/
+.container {
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/*Moving the calculator a tiny bit upwards*/
+.calculator {
+	padding: 1rem;
+	display: inline-block;
+}
+/*Postiotion the button beneath the input*/
+table {
+	margin: auto;
+}
+/*Styling buttons*/
+button {
+	border: none;
+	background-color: white;
+	width: 20vw;
+	height: 10vh;
+	padding: 0.5rem 0;
+	margin: 0.25vmax;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+}
+
+button:hover {
+	background-color: #D2D2D2;
+}
+
+a:hover {
+	text-shadow: 0px 0px 10px #A9C747;
+}
